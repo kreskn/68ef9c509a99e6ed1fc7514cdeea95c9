@@ -1,22 +1,78 @@
-# Site information
-title: Kreskn's Blog
-description: Advanced cybersecurity blog.
-baseurl: ""
-url: "https://kreskn.com"
+  site: Kreskn
+  title: Kreskn
+  description: >-
+    kreskn's personal blog
+  lang: en-US
+  timezone: Rome
+  data-theme: dark 
 
-# Site settings
-permalink: /:title/
+  author:
+  name: kreskn
+  bio: just a minimalist, personal blog
+  username: kreskn 
+
+url: "kreskn.com" #
+baseurl: # leave blank if not wishd
+permalink: "kreskn.com"
+permalink: pretty 
+
+
 markdown: kramdown
-paginate: 5
-paginate_path: "/:num/"
-date_format: "%b %-d, %Y"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
-disqus:
-  shortname: kreskn
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->", "<!---", "--->"]
+  ignore:
+    envs: all
 
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-  - jekyll-feed
   - jekyll-paginate
-  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-relative-links
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
