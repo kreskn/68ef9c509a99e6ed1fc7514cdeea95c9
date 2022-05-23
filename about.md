@@ -1,6 +1,7 @@
 ---
-title: "About"
-layout: about
+title: About
+layout: page
+order: 2 
 ---
 
 I am a **security engineer** looking for challenging problems to solve.
