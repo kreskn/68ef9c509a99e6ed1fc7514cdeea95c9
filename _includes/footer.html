@@ -6,19 +6,8 @@
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<a href=" " title="Some rights reserved">Copyright &copy; {{ page.title }} - {{ site.time | date: '%Y' }} - Theme on</a> <a href="https://github.com/P0WEX/Gesko">GitHub</a> 
+<a href=" " title="Some rights reserved">Copyright &copy;</a> Kreskn - {{ site.time | date: '%Y' }} - Theme on <a href="https://github.com/P0WEX/Gesko">GitHub</a> 
   
-  {% if site.googlewebfonts %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family={{ site.googlewebfonts }}&display=swap" rel="stylesheet">
-  {% endif %}
-  
-  <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}/atom.xml">
-  <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}/sitemap.xml" />
-      
-
   <style>
     {% capture include_to_scssify %}
       {% include inline.scss %}
