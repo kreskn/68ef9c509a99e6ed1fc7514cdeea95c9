@@ -1,5 +1,6 @@
 ---
 layout: about
+title: books
 ---
 
 # Books List
