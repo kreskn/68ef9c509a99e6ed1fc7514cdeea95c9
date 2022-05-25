@@ -1,7 +1,6 @@
 ---
 published: true
 layout: default
-title: 'My Suggested Reading For Managers & Tech Leads'
 ---
 
 The list itself focuses on topics of leadership, management, startups, or product management. Everything except
