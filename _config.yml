@@ -1,14 +1,12 @@
   site: Kreskn
-  title: Kreskn
-  description: >-
-    kreskn's personal blog
+  title: kreskn
+  description: Kreskn's personal blog
   lang: en-US
   timezone: Rome
   data-theme: dark 
 
   author:
   name: kreskn
-  bio: just a minimalist, personal blog
   username: kreskn 
 
 url: "kreskn.com" #
