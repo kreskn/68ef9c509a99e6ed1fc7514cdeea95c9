@@ -1,6 +1,5 @@
 ---
-published: true
-layout: default
+layout: about
 ---
 
 # Books List
