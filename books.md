@@ -3,6 +3,8 @@ published: true
 layout: default
 ---
 
+# Books List
+
 The list itself focuses on topics of leadership, management, startups, or product management. Everything except
 technical topics! It is both classics in the field of technology leadership, or very relevant and more recent books.
 Furthermore, the material and books are selected to cover as much distinct material as possible relevant to the
