@@ -206,15 +206,3 @@ footer .list-inline {
   padding: 0;
 }
 
-footer .copyright {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 0;
-}
-footer .copyright a {
-  color: #337ab7;
-}
-footer .copyright a:hover,
-footer .copyright a:focus {
-  color: #0085a1;
-}
