@@ -5,7 +5,7 @@ title: About
 
 <p>
 
-My name is Kreskn. I'm a programmer, gamer, and generally an all-around nerd. I currently live in the Seattle, WA area and have worked for Microsoft since 2010, although the content and opinions on this blog are completely my own. I blog about technology in general with an emphasis on programming, specifically web technologies and .NET/C#. I'm originally from Texas and went to school at the University of Texas at Austin.
+As a big fan of privacy, I choose to use a nickname rather than my real name. My alias is "Kreskn".<br>I'm a cybersecurity & technology enthusiast, SF junkie, gamer, and all-around nerd.<br>I currently live in Romania and have worked as a freelancer on various projects since 2017.<br>The content and thoughts expressed on this blog are entirely my own.<br>I write about technology in general, with a focus on security threats, particularly exploit development and evasion techniques. In conjunction to my security career, I strive to be a better human being, to assist people when I can, to rescue animals, to conquer social anxiety, and to make the world a better place. 
 <br style="clear:both;" />
 </p>
 
